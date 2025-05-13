@@ -8,7 +8,7 @@ const TaskList = () => {
     let taskComplete = "U+2705";
     return (
         <ul>
-       {tasks.map((task) => <li>{task.completed ? "✅" : "❌" } </li>) }    
+       {tasks.map((task) => <li>{task.completed ? '\u2705' : '\u274c' } </li>) }    
         </ul>
     );
     
